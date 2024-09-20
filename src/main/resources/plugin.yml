@@ -1,0 +1,14 @@
+name: FelarmoniaMovePlayerData
+version: '1.0'
+main: online.slavok.felarmoniaMovePlayerData.FelarmoniaMovePlayerData
+api-version: '1.21'
+commands:
+  moveplayerdata:
+    description: Move player data from one server to another
+    usage: /<command> <from> <to
+    permission: moveplayerdata.command
+
+permissions:
+  moveplayerdata.command:
+    description: Permission to use /moveplayerdata command
+    default: op
